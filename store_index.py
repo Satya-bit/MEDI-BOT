@@ -33,5 +33,5 @@ if not pc.has_index(index_name):
         )
     )
 
-#Creating embeddings and storing in Pinecone
+#Creating embeddings and storing in Pinecone ##
 docsearch=PineconeVectorStore.from_documents(documents=text_chunks, embedding=embeddings, index_name=index_name)

@@ -10,7 +10,7 @@ list_of_files=[
     "src/helper.py",  # Add all the functions here
     "src/prompt.py", #Prompt
     ".env",  # Add all the env variables here
-    "setup.py", #For installing it as a local package
+    "setup.py", #For installing it as a local package ##
     "app.py",
     "research/trials.ipynb"
 ]
